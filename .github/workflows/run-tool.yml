@@ -1,0 +1,31 @@
+name: Run WikiArabicTools
+
+on:
+  workflow_dispatch:
+    inputs:
+      article_title:
+        description: 'عنوان المقالة الإنجليزية (English Article Title)'
+        required: true
+        default: 'Seven Years'' War'
+
+jobs:
+  build-and-process:
+    runs-on: windows-latest
+
+    steps:
+      - name: جلب الكود من المستودع
+        uses: actions/checkout@v4
+
+      - name: تشغيل أداة معالجة الروابط
+        shell: pwsh
+        run: |
+          .\WikiArabicTools.ps1 -Title "${{ github.event.inputs.article_title }}"
+
+      - name: رفع الملفات الناتجة لتنزيلها
+        uses: actions/upload-artifact@v4
+        with:
+          name: translated-wikitext
+          path: |
+            output.wiki
+            source-info.txt
+            untranslated-links.txt
