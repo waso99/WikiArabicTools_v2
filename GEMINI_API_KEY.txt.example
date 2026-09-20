@@ -1,0 +1,3 @@
+﻿لا تضع مفتاح Gemini API هنا.
+اضبطه كمتغير بيئة للمستخدم في PowerShell:
+[Environment]::SetEnvironmentVariable("GEMINI_API_KEY","ضع_المفتاح_هنا","User")

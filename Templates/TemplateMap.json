@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Action": "RenameTemplate",
+    "Source": "Campaignbox Golden Age of Piracy",
+    "Target": "صندوق حملة العصر الذهبي للقرصنة"
+  },
+  {
+    "Action": "RenameParameterValue",
+    "Template": "Campaignbox",
+    "Parameter": "name",
+    "SourceValue": "Campaignbox Golden Age of Piracy",
+    "TargetValue": "صندوق حملة العصر الذهبي للقرصنة"
+  },
+  {
+    "Action": "RenameTemplate",
+    "Source": "convert",
+    "Target": "حول"
+  },
+  {
+    "Action": "RenameTemplate",
+    "Source": "cvt",
+    "Target": "حول مختصر"
+  }
+]

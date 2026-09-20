@@ -1,0 +1,7 @@
+Cache/*
+!Cache/.gitkeep
+*.tmp
+*.bak
+source-info.txt
+untranslated-links.txt
+GEMINI_API_KEY.txt
