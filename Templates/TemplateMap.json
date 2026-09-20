@@ -20,5 +20,20 @@
     "Action": "RenameTemplate",
     "Source": "cvt",
     "Target": "حول مختصر"
+  },
+  {
+    "Action": "RenameTemplate",
+    "Source": "Main",
+    "Target": "مفصلة"
+  },
+  {
+    "Action": "RenameTemplate",
+    "Source": "See also",
+    "Target": "طالع أيضا"
+  },
+  {
+    "Action": "RenameTemplate",
+    "Source": "Further",
+    "Target": "معلومات أكثر"
   }
 ]
