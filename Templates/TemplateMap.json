@@ -35,5 +35,10 @@
     "Action": "RenameTemplate",
     "Source": "Further",
     "Target": "معلومات أكثر"
+  },
+  {
+    "Action": "RenameTemplate",
+    "Source": "Legend",
+    "Target": "مؤشر لوني"
   }
 ]
